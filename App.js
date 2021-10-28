@@ -6,6 +6,8 @@
  * @flow strict-local
  */
 
+//vertically oriented device layout
+
 import React from 'react';
 import {
   StyleSheet,
