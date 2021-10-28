@@ -17,18 +17,14 @@ import {
   View,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import Loggin from "./src/loggin/index.js"
+import Info from "./src/letter/index.js"
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Hello World</Text>
+      <Loggin/>
+      <Info />
     </View>
   )
 }
@@ -36,6 +32,9 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'row',
+    backgroundColor: 'black',
+    padding: 20,
   }
 });
 
